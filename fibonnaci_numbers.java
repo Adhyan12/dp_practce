@@ -8,7 +8,7 @@
         int n;
         System.out.print("Enter value: ");
         n = Integer.parseInt(k.readLine());
-        System.out.println("The fibo number is: "+fibo(n));
+        System.out.println("The fibo number of "+n+" is: "+fibo(n));
 
     }
     static Hashtable<Integer,Integer> ht = new Hashtable<>();
